@@ -1,12 +1,11 @@
-import { Box } from "@chakra-ui/react";
-import { ReactNode } from "react";
+import { Box } from '@chakra-ui/react';
+import { ReactNode } from 'react';
+import Footer from './Footer';
+import Header from './Header';
 
-import Footer from "./Footer";
-import Header from "./Header";
-
-type LayoutProps = {
+interface LayoutProps {
   children: ReactNode;
-};
+}
 
 const Layout = ({ children }: LayoutProps) => {
   return (

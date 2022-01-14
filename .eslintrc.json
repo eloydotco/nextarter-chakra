@@ -1,4 +1,7 @@
 {
+  "rules": {
+    "import/order": "ignore"
+  },
   "extends": [
     "sznm/react",
     "plugin:react/jsx-runtime",

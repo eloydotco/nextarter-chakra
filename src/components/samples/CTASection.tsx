@@ -1,14 +1,14 @@
-import { Box, Button, Code, Flex, Image, Link } from "@chakra-ui/react";
-import { AiFillGithub } from "react-icons/ai";
+import { Box, Button, Code, Flex, Image, Link } from '@chakra-ui/react';
+import { AiFillGithub } from 'react-icons/ai';
 
-const repoLink = "https://github.com/sozonome/nextarter-chakra";
+const repoLink = 'https://github.com/sozonome/nextarter-chakra';
 
 const CTASection = () => {
   return (
-    <Box textAlign={{ base: "center", md: "left" }} marginTop={8}>
+    <Box textAlign={{ base: 'center', md: 'left' }} marginTop={8}>
       <Flex
         marginY={4}
-        justifyContent={{ base: "center", md: "left" }}
+        justifyContent={{ base: 'center', md: 'left' }}
         gridGap={2}
       >
         <Link
@@ -34,7 +34,7 @@ const CTASection = () => {
       </Flex>
 
       <Box marginY={2}>
-        <Code>npx degit sozonome/nextarter-chakra {"<YOUR_APP_NAME>"}</Code>
+        <Code>npx degit sozonome/nextarter-chakra {'<YOUR_APP_NAME>'}</Code>
         <br />
 
         <Button
@@ -49,7 +49,7 @@ const CTASection = () => {
       </Box>
 
       <Flex
-        justifyContent={{ base: "center", md: "left" }}
+        justifyContent={{ base: 'center', md: 'left' }}
         alignItems="center"
         gridGap={2}
       >
